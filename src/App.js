@@ -117,7 +117,7 @@ const App = () => {
     {
       name: 'Poptart®',
       image: 'https://i.imgur.com/q9zgcaP.jpg',
-      attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
+      attributes: ['food?', 'edible?', 'Horrible when toasted!'],
     },
   ])
 
