@@ -125,7 +125,7 @@ const App = () => {
     {
       name: "doritos",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["reusability", "not a taco", "beautiful"],
+      attributes: ["everything", "for real"],
     },
   ])
 
@@ -147,10 +147,6 @@ const App = () => {
       <Route
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
-      />
-      <Route
-        path="/the-silly-things"
-        element={<SillyThings things={fabiansThings} />}
       />
     </Routes>
   )
