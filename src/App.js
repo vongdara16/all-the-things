@@ -125,10 +125,13 @@ const App = () => {
     {
       name: "doritos",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+      attributes: ["reusability", "not a taco", "beautiful"],
     },
   ])
 
+
+
+  //CONFLICT
   return (
     <Routes>
       {/* All the <Route> components should live here */}
