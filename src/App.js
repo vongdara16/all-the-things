@@ -123,9 +123,9 @@ const App = () => {
 
   const [fabiansThings, setFabiansThings] = useState([
     {
-      name: "doritos",
+      name: "flaming hot doritos are god tier",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+      attributes: ["everything", "for real"],
     },
   ])
 
