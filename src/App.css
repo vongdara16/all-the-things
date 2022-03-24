@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.App-link:hover {
+  cursor: pointer;
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
