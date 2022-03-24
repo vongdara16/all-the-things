@@ -117,15 +117,15 @@ const App = () => {
     {
       name: 'Poptart®',
       image: 'https://i.imgur.com/q9zgcaP.jpg',
-      attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
+      attributes: ['food?', 'edible?', 'Horrible when toasted!'],
     },
   ])
 
   const [fabiansThings, setFabiansThings] = useState([
     {
-      name: "doritos",
+      name: "flaming hot doritos are god tier",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["everything", "for real"],
+      attributes: ["everything", "for real", 'all'],
     },
   ])
   
@@ -145,7 +145,6 @@ const App = () => {
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
       />
-
     </Routes>
   )
 }
