@@ -128,9 +128,6 @@ const App = () => {
       attributes: ["everything", "for real"],
     },
   ])
-
-
-
   //CONFLICT
   return (
     <Routes>
@@ -148,7 +145,7 @@ const App = () => {
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
       />
-      
+
     </Routes>
   )
 }
