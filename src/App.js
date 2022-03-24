@@ -125,10 +125,10 @@ const App = () => {
     {
       name: "flaming hot doritos are god tier",
       image: "https://i.imgur.com/jhAg8UTb.jpg",  
-      attributes: ["everything", "for real"],
+      attributes: ["everything", "for real", 'all'],
     },
   ])
-
+  
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -145,7 +145,6 @@ const App = () => {
         path="/the-well-styled-things"
         element={<StyledThings things={davidsThings} />}
       />
-    
     </Routes>
   )
 }
